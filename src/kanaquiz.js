@@ -151,33 +151,33 @@ var OptionsPanel = React.createClass({
 					<div id="kanaquiz-options">
 						<fieldset><legend>Hiragana</legend>
 							<div className="formrow">
-								<input ref="hb" type="checkbox" name="dictionaries[]" id="dictionary-hb" value="hb" defaultChecked={enabled.hb ? true : false } />
+								<input ref="hb" type="checkbox" className="lightswitch" name="dictionaries[]" id="dictionary-hb" value="hb" defaultChecked={enabled.hb ? true : false } />
 								<label htmlFor="dictionary-hb">Hiragana Basic</label>
 							</div>
 							<div className="formrow">
-								<input ref="hv" type="checkbox" name="dictionaries[]" id="dictionary-hv" value="hv" defaultChecked={enabled.hv ? true : false } />
+								<input ref="hv" type="checkbox" className="lightswitch" name="dictionaries[]" id="dictionary-hv" value="hv" defaultChecked={enabled.hv ? true : false } />
 								<label htmlFor="dictionary-hv">Hiragana Voiced</label>
 							</div>
 							<div className="formrow">
-								<input ref="hc" type="checkbox" name="dictionaries[]" id="dictionary-hc" value="hc" defaultChecked={enabled.hc ? true : false } />
+								<input ref="hc" type="checkbox" className="lightswitch" name="dictionaries[]" id="dictionary-hc" value="hc" defaultChecked={enabled.hc ? true : false } />
 								<label htmlFor="dictionary-hc">Hiragana Contracted</label>
 							</div>
 						</fieldset>
 						<fieldset><legend>Katakana</legend>
 							<div className="formrow">
-								<input ref="kb" type="checkbox" name="dictionaries[]" id="dictionary-kb" value="kb" defaultChecked={enabled.kb ? true : false } />
+								<input ref="kb" type="checkbox" className="lightswitch" name="dictionaries[]" id="dictionary-kb" value="kb" defaultChecked={enabled.kb ? true : false } />
 								<label htmlFor="dictionary-kb">Katakana Basic</label>
 							</div>
 							<div className="formrow">
-								<input ref="kv" type="checkbox" name="dictionaries[]" id="dictionary-kv" value="kv" defaultChecked={enabled.kv ? true : false } />
+								<input ref="kv" type="checkbox" className="lightswitch" name="dictionaries[]" id="dictionary-kv" value="kv" defaultChecked={enabled.kv ? true : false } />
 								<label htmlFor="dictionary-kv">Katakana Voiced</label>
 							</div>
 							<div className="formrow">
-								<input ref="kc" type="checkbox" name="dictionaries[]" id="dictionary-kc" value="kc" defaultChecked={enabled.kc ? true : false } />
+								<input ref="kc" type="checkbox" className="lightswitch" name="dictionaries[]" id="dictionary-kc" value="kc" defaultChecked={enabled.kc ? true : false } />
 								<label htmlFor="dictionary-kc">Katakana Contracted</label>
 							</div>
 							<div className="formrow">
-								<input ref="ke" type="checkbox" name="dictionaries[]" id="dictionary-ke" value="ke" defaultChecked={enabled.ke ? true : false } />
+								<input ref="ke" type="checkbox" className="lightswitch" name="dictionaries[]" id="dictionary-ke" value="ke" defaultChecked={enabled.ke ? true : false } />
 								<label htmlFor="dictionary-ke">Katakana Extended</label>
 							</div>
 						</fieldset>

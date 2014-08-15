@@ -151,33 +151,33 @@ var OptionsPanel = React.createClass({displayName: 'OptionsPanel',
 					React.DOM.div( {id:"kanaquiz-options"}, 
 						React.DOM.fieldset(null, React.DOM.legend(null, "Hiragana"),
 							React.DOM.div( {className:"formrow"}, 
-								React.DOM.input( {ref:"hb", type:"checkbox", name:"dictionaries[]", id:"dictionary-hb", value:"hb", defaultChecked:enabled.hb ? true : false } ),
+								React.DOM.input( {ref:"hb", type:"checkbox", className:"lightswitch", name:"dictionaries[]", id:"dictionary-hb", value:"hb", defaultChecked:enabled.hb ? true : false } ),
 								React.DOM.label( {htmlFor:"dictionary-hb"}, "Hiragana Basic")
 							),
 							React.DOM.div( {className:"formrow"}, 
-								React.DOM.input( {ref:"hv", type:"checkbox", name:"dictionaries[]", id:"dictionary-hv", value:"hv", defaultChecked:enabled.hv ? true : false } ),
+								React.DOM.input( {ref:"hv", type:"checkbox", className:"lightswitch", name:"dictionaries[]", id:"dictionary-hv", value:"hv", defaultChecked:enabled.hv ? true : false } ),
 								React.DOM.label( {htmlFor:"dictionary-hv"}, "Hiragana Voiced")
 							),
 							React.DOM.div( {className:"formrow"}, 
-								React.DOM.input( {ref:"hc", type:"checkbox", name:"dictionaries[]", id:"dictionary-hc", value:"hc", defaultChecked:enabled.hc ? true : false } ),
+								React.DOM.input( {ref:"hc", type:"checkbox", className:"lightswitch", name:"dictionaries[]", id:"dictionary-hc", value:"hc", defaultChecked:enabled.hc ? true : false } ),
 								React.DOM.label( {htmlFor:"dictionary-hc"}, "Hiragana Contracted")
 							)
 						),
 						React.DOM.fieldset(null, React.DOM.legend(null, "Katakana"),
 							React.DOM.div( {className:"formrow"}, 
-								React.DOM.input( {ref:"kb", type:"checkbox", name:"dictionaries[]", id:"dictionary-kb", value:"kb", defaultChecked:enabled.kb ? true : false } ),
+								React.DOM.input( {ref:"kb", type:"checkbox", className:"lightswitch", name:"dictionaries[]", id:"dictionary-kb", value:"kb", defaultChecked:enabled.kb ? true : false } ),
 								React.DOM.label( {htmlFor:"dictionary-kb"}, "Katakana Basic")
 							),
 							React.DOM.div( {className:"formrow"}, 
-								React.DOM.input( {ref:"kv", type:"checkbox", name:"dictionaries[]", id:"dictionary-kv", value:"kv", defaultChecked:enabled.kv ? true : false } ),
+								React.DOM.input( {ref:"kv", type:"checkbox", className:"lightswitch", name:"dictionaries[]", id:"dictionary-kv", value:"kv", defaultChecked:enabled.kv ? true : false } ),
 								React.DOM.label( {htmlFor:"dictionary-kv"}, "Katakana Voiced")
 							),
 							React.DOM.div( {className:"formrow"}, 
-								React.DOM.input( {ref:"kc", type:"checkbox", name:"dictionaries[]", id:"dictionary-kc", value:"kc", defaultChecked:enabled.kc ? true : false } ),
+								React.DOM.input( {ref:"kc", type:"checkbox", className:"lightswitch", name:"dictionaries[]", id:"dictionary-kc", value:"kc", defaultChecked:enabled.kc ? true : false } ),
 								React.DOM.label( {htmlFor:"dictionary-kc"}, "Katakana Contracted")
 							),
 							React.DOM.div( {className:"formrow"}, 
-								React.DOM.input( {ref:"ke", type:"checkbox", name:"dictionaries[]", id:"dictionary-ke", value:"ke", defaultChecked:enabled.ke ? true : false } ),
+								React.DOM.input( {ref:"ke", type:"checkbox", className:"lightswitch", name:"dictionaries[]", id:"dictionary-ke", value:"ke", defaultChecked:enabled.ke ? true : false } ),
 								React.DOM.label( {htmlFor:"dictionary-ke"}, "Katakana Extended")
 							)
 						)

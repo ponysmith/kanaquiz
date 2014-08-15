@@ -103,6 +103,7 @@ html {
 .kanaquiz-mode:checked + label:after {
 	background-color: #66c16d;
 }
+
 /* Options button */
 .kanaquiz-options-button {
 	display: inline-block;
@@ -206,6 +207,37 @@ html {
 #kanaquiz-optionsbuttons .submit { background-color: #62c728; }
 #kanaquiz-optionsbuttons .cancel { background-color: #888; }
 
+
+/**
+ * Lightswitches 
+ */
+#kanaquiz .formrow input.lightswitch {
+    position: absolute;
+    left: -9999px;
+}
+#kanaquiz .formrow input.lightswitch~label {
+    height: 20px;
+    margin-left: 0;
+    line-height: 20px;
+    vertical-align: middle;
+}
+#kanaquiz .formrow input.lightswitch~label:before {
+    content: '';
+    display: inline-block;
+    line-height: 20px;
+    vertical-align: middle;
+    height: 20px;
+    width: 59px;
+    margin-right: 10px;
+    border: 1px solid #666;
+    background: transparent url(../images/sprites.png) no-repeat -40px -20px;
+    -webkit-transition: background-position .2s;
+    -moz-transition: background-position .2s;
+    -o-transition: background-position .2s;
+    -ms-transition: background-position .2s;
+    transition: background-position .2s;
+}
+#kanaquiz .formrow input.lightswitch:checked~label:before { background-position: -81px -20px; }
 
 
 
